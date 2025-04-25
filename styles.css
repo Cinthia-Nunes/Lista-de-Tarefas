@@ -64,6 +64,15 @@ main{
     margin-bottom: 2%;
 }
 
+.item.clicado{
+    background: #d4f6d9;
+}
+
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color: gray;
+}
+
 .item-icone{
     flex: 20%;
    /* border: 1px solid orangered;*/
@@ -91,4 +100,9 @@ main{
     padding: 10px;
     height: 80px;
     width: 100%;
+}
+
+.mdi-check-circle{
+    color: green;
+
 }
